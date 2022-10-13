@@ -16,6 +16,10 @@ a {
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+}
+
 /** Headear y Navegacion **/
 .nombre-sitio {
     margin-top: 50px;
@@ -33,6 +37,8 @@ a {
 }
 .nav-principal{
     padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .hero {
@@ -42,4 +48,9 @@ a {
     height: 550px;
 }
 
+/* categorias */
 
+.listado-productos {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
